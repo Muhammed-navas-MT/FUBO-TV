@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image{
+    background-image: url("about-bg.png");
+    background-color: rgba(13, 13, 13,1);
+    background-size:cover ;
+}
+.text{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+.cricket{
+    width: 100%;
+    height: 100%;
+}
+.cricket img{
+    width:100%;
+    height: 100%;
+    padding: 10px 40px;
+}
+.section-1 .para{
+    font-size: 1.2rem;
+}
+.section-2{
+    background: linear-gradient(174deg, rgb(250, 70, 22) 0%, rgb(114, 30, 78) 100%);
+}
+.image-3{
+    width: 63%;
+}footer h4{
+    font-size: 1.5rem;
+}
+.row .container{
+    padding: 0 10%;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 2% 0;
+    overflow: hidden;
+}
+
+
+
+@media(max-width:770px){
+    .image-3{
+        width: 100%;
+        padding: 5%; 
+    }
+}
+@media(max-width:800px){
+    #links{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #fubo-2024{
+        text-align: center;
+        width: 100%;
+    }
+}
+@media(max-width:1282px){
+    .video{
+        width: 85% !important;
+    }
+}
+@media (max-width:475px) {
+    .cricket{
+        width: 100%;
+    }
+}
+@media(max-width:1080px){
+    .image-3{
+        width: 100%;
+        padding: 5%;
+        
+    }
+    
+}
+
+@media(min-width:475px){
+    .background-image{
+        width: 100%;
+    }
+    .cricket{
+        width: 100%;
+    }
+}
+@media(min-width:640px){
+    .background-image{
+        width: 100%;
+    }
+}
+@media (min-width:764px) {
+    .cricket{
+        padding: 0 10%;
+        margin: 0;
+    }
+}
+@media(min-width:768px){
+    .background-image{
+        width: 100%;
+    }
+    .cricket{
+        padding: 0 20%;
+    }
+    .section-1 .para{
+        padding: 0 7% !important;
+    }
+    .para-s3{
+        padding: 0 17%;
+    }
+}
+@media(min-width:1028px){
+    .section-1 .para{
+        padding: 0 20% !important;
+    }
+    .para-2{
+        padding:0 5% !important;
+    }
+}
+@media(min-width:1080px){
+    .background-image{
+        width: 100%;
+    }
+    .cricket{
+        padding:0 27%;
+    }
+}
+@media(min-width:1536px){
+    .background-image{
+        width: 100%;
+    }
+    .para-2{
+        padding:0 18% !important;
+    }
+}
